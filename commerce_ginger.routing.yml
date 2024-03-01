@@ -1,0 +1,13 @@
+commerce_ginger.form:
+  path: '/admin/config/system/commerce_ginger'
+  defaults:
+    _title: 'XPATE Payment Gateway'
+    _form: '\Drupal\commerce_ginger\Form\BasicSettingsForm'
+  requirements:
+    _permission: 'access commerce administration pages'
+commerce_ginger.finish:
+  path: '/payment/finish'
+  defaults:
+    _controller: '\Drupal\commerce_ginger\Controller\ResultController::onFinish'
+  requirements:
+    _access: 'TRUE'

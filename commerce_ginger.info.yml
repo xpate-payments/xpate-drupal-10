@@ -1,0 +1,17 @@
+name: XPATE Payment Gateway
+description: Provides Commerce integration for the XPATE Gateway.
+type: module
+
+core_version_requirement: ^9 || ^10
+
+package: Commerce
+
+## configure: /admin/commerce/config/payment-gateways
+configure: commerce_ginger.form
+
+dependencies:
+  - commerce:commerce_payment
+  - commerce:commerce
+  - commerce:commerce_order
+  - commerce:commerce_checkout
+version: '1.0.0'

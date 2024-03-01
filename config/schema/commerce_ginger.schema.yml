@@ -1,0 +1,16 @@
+commerce_ginger.commerce_payment_gateway.plugin.ginger_redirect_checkout:
+  type: commerce_payment_gateway_configuration
+  label: 'Ginger Payment Gateway configuration'
+commerce_ginger.settings:
+  type: config_object
+  label: 'ginger URL and Mode Settings'
+  mapping:
+    custom:
+      type: mapping
+      mapping:
+        api_key:
+          type: text
+          label: 'api_key'
+        log:
+          type: boolean
+          label: 'log'

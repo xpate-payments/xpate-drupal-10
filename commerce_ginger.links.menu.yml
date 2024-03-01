@@ -1,0 +1,19 @@
+commerce_ginger.form:
+  route_name: commerce_ginger.form
+  title: 'XPATE Payment Gateway'
+  description: 'URL and Mode Settings for the XPATE module.'
+  parent: system.admin_config_system
+
+commerce.store_configuration:
+  type: config_object
+  label: 'XPATE config'
+  mapping:
+    apikey:
+      type: text
+      label: 'API-Key'
+
+  title: 'Configuration'
+  route_name: 'commerce.configuration'
+  parent: 'commerce.admin_commerce'
+  description: 'Configure your store settings and structure.'
+  weight: 10

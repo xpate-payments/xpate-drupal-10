@@ -1,0 +1,4 @@
+administer commerce_ginger:
+  title: 'Administer XPATE Payment Gateway'
+  description: 'Perform administration tasks'
+  restrict access: TRUE

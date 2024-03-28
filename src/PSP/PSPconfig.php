@@ -29,7 +29,7 @@ class PSPconfig
 
     const PLUGIN_NAME = 'XPATE-Drupal10';
 
-    const ENDPOINT = 'https://api.dev.gingerpayments.com';
+    const ENDPOINT = 'https://api.gateway.xpate.com';
 
     const LOGGER_CHANEL = 'example_plugin';
 
